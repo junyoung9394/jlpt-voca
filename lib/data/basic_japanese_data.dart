@@ -1,0 +1,132 @@
+import '../models/basic_japanese_item.dart';
+
+const List<BasicJapaneseItem> basicExpressionsData = [
+  BasicJapaneseItem(japanese: 'こんにちは', readingKo: '곤니치와', meaning: '안녕하세요 (낮)'),
+  BasicJapaneseItem(japanese: 'おはようございます', readingKo: '오하요우 고자이마스', meaning: '좋은 아침입니다'),
+  BasicJapaneseItem(japanese: 'こんばんは', readingKo: '곤방와', meaning: '안녕하세요 (저녁)'),
+  BasicJapaneseItem(japanese: 'おやすみなさい', readingKo: '오야스미나사이', meaning: '안녕히 주무세요'),
+  BasicJapaneseItem(japanese: 'さようなら', readingKo: '사요우나라', meaning: '안녕히 가세요'),
+  BasicJapaneseItem(japanese: 'またね', readingKo: '마타네', meaning: '또 봐요'),
+  BasicJapaneseItem(japanese: 'ありがとうございます', readingKo: '아리가토우 고자이마스', meaning: '감사합니다'),
+  BasicJapaneseItem(japanese: 'どういたしまして', readingKo: '도우이타시마시테', meaning: '천만에요'),
+  BasicJapaneseItem(japanese: 'すみません', readingKo: '스미마셍', meaning: '죄송합니다 / 실례합니다'),
+  BasicJapaneseItem(japanese: 'ごめんなさい', readingKo: '고멘나사이', meaning: '미안합니다'),
+  BasicJapaneseItem(japanese: 'はじめまして', readingKo: '하지메마시테', meaning: '처음 뵙겠습니다'),
+  BasicJapaneseItem(japanese: 'よろしくおねがいします', readingKo: '요로시쿠 오네가이시마스', meaning: '잘 부탁드립니다'),
+  BasicJapaneseItem(japanese: 'いただきます', readingKo: '이타다키마스', meaning: '잘 먹겠습니다'),
+  BasicJapaneseItem(japanese: 'ごちそうさまでした', readingKo: '고치소우사마 데시타', meaning: '잘 먹었습니다'),
+  BasicJapaneseItem(japanese: 'はい', readingKo: '하이', meaning: '네'),
+  BasicJapaneseItem(japanese: 'いいえ', readingKo: '이이에', meaning: '아니요'),
+  BasicJapaneseItem(japanese: 'わかりました', readingKo: '와카리마시타', meaning: '알겠습니다'),
+  BasicJapaneseItem(japanese: 'わかりません', readingKo: '와카리마셍', meaning: '모르겠습니다'),
+  BasicJapaneseItem(japanese: 'もういちどいってください', readingKo: '모우 이치도 잇테 쿠다사이', meaning: '한 번 더 말해주세요'),
+  BasicJapaneseItem(japanese: 'ゆっくりはなしてください', readingKo: '윳쿠리 하나시테 쿠다사이', meaning: '천천히 말해주세요'),
+];
+
+const List<BasicJapaneseItem> numbersData = [
+  BasicJapaneseItem(japanese: 'いち（一）', readingKo: '이치', meaning: '1'),
+  BasicJapaneseItem(japanese: 'に（二）', readingKo: '니', meaning: '2'),
+  BasicJapaneseItem(japanese: 'さん（三）', readingKo: '산', meaning: '3'),
+  BasicJapaneseItem(japanese: 'し・よん（四）', readingKo: '시 / 욘', meaning: '4'),
+  BasicJapaneseItem(japanese: 'ご（五）', readingKo: '고', meaning: '5'),
+  BasicJapaneseItem(japanese: 'ろく（六）', readingKo: '로쿠', meaning: '6'),
+  BasicJapaneseItem(japanese: 'しち・なな（七）', readingKo: '시치 / 나나', meaning: '7'),
+  BasicJapaneseItem(japanese: 'はち（八）', readingKo: '하치', meaning: '8'),
+  BasicJapaneseItem(japanese: 'く・きゅう（九）', readingKo: '쿠 / 큐우', meaning: '9'),
+  BasicJapaneseItem(japanese: 'じゅう（十）', readingKo: '쥬우', meaning: '10'),
+  BasicJapaneseItem(japanese: 'じゅういち（十一）', readingKo: '쥬우이치', meaning: '11'),
+  BasicJapaneseItem(japanese: 'にじゅう（二十）', readingKo: '니쥬우', meaning: '20'),
+  BasicJapaneseItem(japanese: 'ひゃく（百）', readingKo: '햐쿠', meaning: '100'),
+  BasicJapaneseItem(japanese: 'せん（千）', readingKo: '셍', meaning: '1,000'),
+  BasicJapaneseItem(japanese: 'いちまん（一万）', readingKo: '이치만', meaning: '10,000'),
+  BasicJapaneseItem(japanese: 'いまなんじですか', readingKo: '이마 난지 데스카', meaning: '지금 몇 시예요?'),
+  BasicJapaneseItem(japanese: 'いちじ（一時）', readingKo: '이치지', meaning: '1시'),
+  BasicJapaneseItem(japanese: 'にじ（二時）', readingKo: '니지', meaning: '2시'),
+  BasicJapaneseItem(japanese: 'さんじはん（三時半）', readingKo: '산지 항', meaning: '3시 반'),
+  BasicJapaneseItem(japanese: 'ごぜん（午前）', readingKo: '고젠', meaning: '오전'),
+  BasicJapaneseItem(japanese: 'ごご（午後）', readingKo: '고고', meaning: '오후'),
+  BasicJapaneseItem(japanese: 'あさ（朝）', readingKo: '아사', meaning: '아침'),
+  BasicJapaneseItem(japanese: 'ひる（昼）', readingKo: '히루', meaning: '낮'),
+  BasicJapaneseItem(japanese: 'よる（夜）', readingKo: '요루', meaning: '밤'),
+  BasicJapaneseItem(japanese: 'きょう（今日）', readingKo: '쿄우', meaning: '오늘'),
+  BasicJapaneseItem(japanese: 'あした（明日）', readingKo: '아시타', meaning: '내일'),
+  BasicJapaneseItem(japanese: 'きのう（昨日）', readingKo: '키노우', meaning: '어제'),
+];
+
+const List<BasicJapaneseItem> simpleSentencesData = [
+  BasicJapaneseItem(
+    japanese: 'わたしは がくせいです。',
+    readingKo: '와타시와 각세이데스.',
+    meaning: '저는 학생입니다.',
+  ),
+  BasicJapaneseItem(
+    japanese: 'これは なんですか。',
+    readingKo: '코레와 난데스카.',
+    meaning: '이것은 무엇입니까?',
+  ),
+  BasicJapaneseItem(
+    japanese: 'あれは わたしの かばんです。',
+    readingKo: '아레와 와타시노 카방데스.',
+    meaning: '저것은 제 가방입니다.',
+  ),
+  BasicJapaneseItem(
+    japanese: 'どこへ いきますか。',
+    readingKo: '도코에 이키마스카.',
+    meaning: '어디에 갑니까?',
+  ),
+  BasicJapaneseItem(
+    japanese: 'にほんごを べんきょうしています。',
+    readingKo: '니홍고오 벵쿄우 시테 이마스.',
+    meaning: '일본어를 공부하고 있습니다.',
+  ),
+  BasicJapaneseItem(
+    japanese: 'おなまえは なんですか。',
+    readingKo: '오나마에와 난데스카.',
+    meaning: '이름이 무엇입니까?',
+  ),
+  BasicJapaneseItem(
+    japanese: 'わたしの なまえは キムです。',
+    readingKo: '와타시노 나마에와 키무데스.',
+    meaning: '제 이름은 김입니다.',
+  ),
+  BasicJapaneseItem(
+    japanese: 'これを ください。',
+    readingKo: '코레오 쿠다사이.',
+    meaning: '이것을 주세요.',
+  ),
+  BasicJapaneseItem(
+    japanese: 'いくらですか。',
+    readingKo: '이쿠라데스카.',
+    meaning: '얼마입니까?',
+  ),
+  BasicJapaneseItem(
+    japanese: 'トイレは どこですか。',
+    readingKo: '토이레와 도코데스카.',
+    meaning: '화장실은 어디입니까?',
+  ),
+  BasicJapaneseItem(
+    japanese: 'すきです。',
+    readingKo: '스키데스.',
+    meaning: '좋아합니다.',
+  ),
+  BasicJapaneseItem(
+    japanese: 'きらいです。',
+    readingKo: '키라이데스.',
+    meaning: '싫어합니다.',
+  ),
+  BasicJapaneseItem(
+    japanese: 'たべたいです。',
+    readingKo: '타베타이데스.',
+    meaning: '먹고 싶습니다.',
+  ),
+  BasicJapaneseItem(
+    japanese: 'みてください。',
+    readingKo: '미테 쿠다사이.',
+    meaning: '봐 주세요.',
+  ),
+  BasicJapaneseItem(
+    japanese: 'てつだってください。',
+    readingKo: '테츠닷테 쿠다사이.',
+    meaning: '도와주세요.',
+  ),
+];
