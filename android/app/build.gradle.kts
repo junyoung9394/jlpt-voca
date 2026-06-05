@@ -33,7 +33,7 @@ android {
         // ML Kit digital ink recognition requires Android 6.0 (API 23)+.
         minSdk = 23
         targetSdk = 36
-        versionCode = 22
+        versionCode = 23
         versionName = "1.2.4"
     }
 

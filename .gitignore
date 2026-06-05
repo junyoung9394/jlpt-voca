@@ -50,3 +50,14 @@ android/app/key.jks
 android/key.jks
 *.jks
 *.keystore
+
+# Firebase config (sensitive)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Build artifacts & zips
+/build/
+*.zip
+
+# Claude Code
+.claude/

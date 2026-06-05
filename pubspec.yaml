@@ -2,7 +2,7 @@ name: jlpt_voca
 description: JLPT 일본어 단어 + 문법 학습 앱
 publish_to: "none"
 
-version: 1.2.4+22
+version: 1.2.4+23
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
